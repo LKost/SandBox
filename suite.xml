@@ -1,0 +1,10 @@
+<suite name="Test-method Suite" parallel="classes" thread-count="3" >
+
+    <test name="Test-method test" group-by-instances="true" parallel="methods" thread-count="10" >
+                <classes>
+                    <class name="testmocks.TestEasyMock" />
+                    <class name="testmocks.TestEasyMock2" />
+                    <class name="testmocks.TestMockito" />
+                </classes>
+    </test>
+</suite>
