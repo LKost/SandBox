@@ -18,6 +18,6 @@ public class TestEasyMock {
         expect(person.getAge()).andReturn(28);
         replay(person); //apply
         Assert.assertEquals(house.getResult(), "28name");
-        verify(person); //verify all 2 mocks are executed, throw exception;
+        verify(person); //verify all 2 mocks are executed, throw exception
     }
 }
