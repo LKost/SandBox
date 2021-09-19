@@ -13,7 +13,5 @@ public class Test1 extends BaseTest{
     public void test1() {
         basePo.typeIntoSearch("abraCadabra");
         basePo.pressEnter();
-        wait2(50);
-//        driver.close();
     }
 }
